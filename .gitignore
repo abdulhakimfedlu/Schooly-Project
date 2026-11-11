@@ -1,0 +1,60 @@
+# Environment Variables - NEVER COMMIT THESE
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Next.js
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+drizzle/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS Files
+Thumbs.db
+desktop.ini
+
+# Test files (if you want to keep local test scripts private)
+test-db-connection.js
+test-connection-simple.js
+
+# Credentials and secrets
+config/secrets.json
+credentials.json
+*.pem
+*.key
+*.cert
+
+# Temporary files
+tmp/
+temp/
+*.tmp
